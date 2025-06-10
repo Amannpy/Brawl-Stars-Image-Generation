@@ -1,0 +1,24 @@
+
+---
+
+## ⚙️ Installation
+
+> 🐍 Python 3.10+ and pip required.
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/yourusername/brawlstars-ai.git
+cd brawlstars-ai
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Set environment variables
+cp .env.example .env
+# Add your OpenAI key and optional credentials
+
+# 4. Run the app (Django)
+python manage.py runserver
+
+# or with FastAPI
+uvicorn main:app --reload
