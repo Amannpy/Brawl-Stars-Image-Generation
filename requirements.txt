@@ -1,0 +1,42 @@
+# Web framework
+Django>=4.2
+# Or use FastAPI instead
+# fastapi>=0.110.0
+# uvicorn[standard]>=0.29.0
+
+# OpenAI for GPT-4 + DALL·E
+openai>=1.0.0
+
+# Prompt enrichment
+requests>=2.31.0
+beautifulsoup4>=4.12.3
+lxml>=4.9.4
+
+# Reddit scraping
+praw>=7.7.1
+# OR basic scraping without auth
+# no dependency needed if using requests + JSON API
+
+# Twitter scraping via snscrape
+snscrape>=0.7.0.20230828
+
+# Environment management
+python-dotenv>=1.0.1
+
+# Logging & monitoring
+sentry-sdk>=1.45.0
+
+# Optional database (PostgreSQL)
+psycopg2-binary>=2.9.9
+
+# Testing
+pytest>=8.2.0
+pytest-django>=4.8.0
+coverage>=7.4.0
+requests-mock>=1.11.0
+
+# Utility
+tqdm>=4.66.4
+
+# Optional: Django REST Framework
+djangorestframework>=3.15.0
